@@ -20,19 +20,14 @@ function initSlideShow(slideshow) {
   }, time);
 }
 
-var text = document.getElementById("info");
-var btn = document.getElementById("btn");
-btn.addEventListener("click", function () {
-  text.innerHTML = "Lorem ipsum";
-  btn.innerHTML = "RETURN";
-  Toggle();
-});
-
+var text = document.getElementById("title");
 var btn = document.getElementById("toggleconfetti");
 btn.addEventListener("click", function () {
-  if (btn.innerHTML === "Confetti!") {
-    btn.innerHTML = "No Confetti!";
+  if (btn.innerHTML === "CLICK ME!") {
+    text.innerHTML = " &hearts; Chris, Renae, Laney, Kinley &hearts;";
+    btn.innerHTML = "Confetti OFF";
   } else {
-    btn.innerHTML = "Confetti!";
+    text.innerHTML = "Happy 18th Birthday Kaylan!";
+    btn.innerHTML = "CLICK ME!";
   }
 });
