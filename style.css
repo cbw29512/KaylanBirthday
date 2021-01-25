@@ -36,6 +36,12 @@ img#bg {
   z-index: -1;
 }
 
+@media only screen and (max-width: 768px) {
+  img#bg {
+    height: 100%;
+  }
+}
+
 [data-component="slideshow"] .slide {
   display: none;
 }
@@ -44,3 +50,16 @@ img#bg {
   display: block;
 }
 
+@media only screen and (max-width: 600px) {
+  .slides {
+    width: 350px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .slides {
+    width: 350px;
+    height: auto;
+  }
+}
