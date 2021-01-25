@@ -20,5 +20,19 @@ function initSlideShow(slideshow) {
   }, time);
 }
 
+var text = document.getElementById("info");
+var btn = document.getElementById("btn");
+btn.addEventListener("click", function () {
+  text.innerHTML = "Lorem ipsum";
+  btn.innerHTML = "RETURN";
+  Toggle();
+});
 
-
+var btn = document.getElementById("toggleconfetti");
+btn.addEventListener("click", function () {
+  if (btn.innerHTML === "Confetti!") {
+    btn.innerHTML = "No Confetti!";
+  } else {
+    btn.innerHTML = "Confetti!";
+  }
+});
