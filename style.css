@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah&effect=fire-animation");
+
+htm,
+body {
+  text-align: center;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Gloria Hallelujah", cursive, sans-serif;
+  font-size: 3em;
+}
+
+@media only screen and (max-width: 720px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+
+img#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* Preserve aspect ratio */
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+[data-component="slideshow"] .slide {
+  display: none;
+}
+
+[data-component="slideshow"] .slide.active {
+  display: block;
+}
+
