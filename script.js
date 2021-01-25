@@ -19,3 +19,4 @@ function initSlideShow(slideshow) {
     slides[index].classList.add("active");
   }, time);
 }
+
