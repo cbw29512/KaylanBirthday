@@ -18,7 +18,7 @@ div {
 h1 {
   font-family: "Gloria Hallelujah", cursive, sans-serif;
   font-size: 3em;
-  margin-top: 3em;
+  margin-top: 2em;
 }
 
 @media only screen and (max-width: 1080px) {
@@ -74,7 +74,7 @@ img#bg {
 }
 
 .btn {
-  margin-top: 2em;
+  margin-top: 1em;
   border-radius: 50%;
   font-size: 1em;
   display: inline-block;
