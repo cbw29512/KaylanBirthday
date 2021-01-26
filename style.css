@@ -18,7 +18,7 @@ div {
 h1 {
   font-family: "Gloria Hallelujah", cursive, sans-serif;
   font-size: 3em;
-  margin-top: 2em;
+  margin-top: .5em;
 }
 
 @media only screen and (max-width: 1080px) {
@@ -59,6 +59,18 @@ img#bg {
   display: block;
 }
 
+img.slides {
+  padding: 10px; 
+  max-height: 612px;
+}
+
+@media only screen and (max-width: 600px) {
+  .slides {
+    width: 350px;
+    height: auto;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .slides {
     width: 350px;
@@ -73,7 +85,7 @@ img#bg {
   }
 }
 
-.btn {
+button#toggleconfetti {
   margin-top: 1em;
   border-radius: 50%;
   font-size: 1em;
@@ -99,4 +111,8 @@ img#bg {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+div.sscontainer {
+  height: 612px;
 }
